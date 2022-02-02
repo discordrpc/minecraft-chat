@@ -1,7 +1,7 @@
 # Minecraft Chat
 [![npm version](https://badge.fury.io/js/minecraft-chat.svg)](https://badge.fury.io/js/minecraft-chat)
 
-Create minecraft bots with the ability to send and receive chats.
+Create minecraft bots with the ability to send and receive chats. **Please note** that this package was specifically built for a personal project and was released upon request. Customisability is low and there may be unresolved bugs and issues.
 
 ## Features
 
