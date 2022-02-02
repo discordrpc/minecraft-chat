@@ -1,6 +1,6 @@
 {
   "name": "minecraft-chat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A basic minecraft library that allows a client to send and receive chats.",
   "main": "index.js",
   "scripts": {
