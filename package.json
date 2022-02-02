@@ -1,7 +1,7 @@
 {
-  "name": "minecraft-basics",
+  "name": "minecraft-chat",
   "version": "1.0.0",
-  "description": "A basic minecraft library that allows a client to chat and access inventories.",
+  "description": "A basic minecraft library that allows a client to send and receive chats.",
   "main": "index.js",
   "scripts": {
     "test": "concurrently npm:dev:*",
