@@ -1,0 +1,30 @@
+{
+  "name": "minecraft-basics",
+  "version": "1.0.0",
+  "description": "A basic minecraft library that allows a client to chat and access inventories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "concurrently npm:dev:*",
+    "dev:server": "npm --prefix ./server/ run run",
+    "dev:client": "sleep 8 && node tests/test.js",
+    "server": "npm --prefix ./server/ run run",
+    "client": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/discordrpc/minecraft-chat.git"
+  },
+  "author": "DiscordRPC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/discordrpc/minecraft-chat/issues"
+  },
+  "homepage": "https://github.com/discordrpc/minecraft-chat#readme",
+  "dependencies": {
+    "minecraft-protocol": "^1.30.0",
+    "prismarine-chat": "^1.5.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
