@@ -14,6 +14,9 @@
     "type": "git",
     "url": "git+https://github.com/discordrpc/minecraft-chat.git"
   },
+  "keywords": [
+    "minecraft"
+  ],
   "author": "DiscordRPC",
   "license": "ISC",
   "bugs": {
